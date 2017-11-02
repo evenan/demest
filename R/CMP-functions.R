@@ -300,7 +300,7 @@ rcmpois(100,mu=9,nu=0.9)
 # splitting the ratio allows the prior means and sds to not be included in the input of 'a.exch'
 # and also to choose the prior distribution to use in a easier way 
 # it can be modified of course
-}
+#}
 # onedimensional but prior mean is a linear combination of paramters depending on age,sex,region amd time 
 
 log_u<- (log(runif(1))+ dnorm(loggamma.curr,mu,sigma,log=TRUE) 
